@@ -1,0 +1,179 @@
+.accordion-collaps{
+    background: url(../imgs/background-04.jpg) no-repeat center;
+    background-size: cover;
+    padding: 50px 0;
+    
+}
+
+.myacc-item{
+    background: transparent;
+    border: 1px solid red !important;
+}
+
+.customacc-btn{
+   font-size: 20px;
+   background: white;
+   color: red;
+}
+.a-body{
+    color: white;
+    
+}
+
+/* collaps css */
+.custom-btn1{
+    background: tomato !important;
+    color: white !important;
+}
+.custom-btn1:hover{
+    background: #f72b07 !important;
+}
+.custom-btn2{
+    background: turquoise;  
+}
+.custom-btn2:hover{
+    background:#06c5b2 !important ;
+}
+.custom-card1{
+    background: tomato !important;
+    color: white !important;
+}
+.custom-card2{
+    background: turquoise;  
+    color: black;
+}
+
+/* card component */
+.custom-headr{
+    background: azure;
+    color: blue;
+}
+.custom-card-btn{
+    background: #f72b07 !important;
+    font-size: 12px;
+    color: white !important;
+    text-transform: uppercase;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+
+}
+.custom-btn2{
+    background: #058847 !important;
+}
+.custom-card-btn::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:0;
+    height: 100%;
+    background: black !important;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    transition: .3s ease-out;
+    
+}
+.custom-card-btn:hover::after{
+    visibility: visible;
+    opacity: 1;
+    color: white;
+    width: 100%;
+}
+.custom-card-btn:focus{
+    box-shadow:0 0 10px 2px rgba(0, 0, 0, .6);
+    color: blue !important;  
+}
+/* dropdown menu */
+.my-drop-menu .nav-item{}
+.my-drop-menu .nav-item .nav-link{
+    color: springgreen !important;
+}
+
+.my-drop-menu .nav-item .dropdown-menu {
+    
+}
+.my-drop-menu .nav-item .dropdown-menu .dropdown-item{
+ color: springgreen;
+ transition: .4s;
+}
+.my-drop-menu .nav-item .dropdown-menu .dropdown-item:hover{
+ background: steelblue;
+}
+
+/* Components */
+.bgc1{
+    background: #34495e;
+}
+
+/* Custom Dropdown menu by html and css */
+
+.menu-creat{
+    background: #34495e;
+}
+.menu-creat ul{
+    text-align: center;
+    padding-left: 0;
+}
+.menu-creat ul li{
+    display: inline-block;
+    position: relative;
+    
+}
+.menu-creat ul li a{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    font-size:15px;
+    padding: 15px 20px;
+    transition: .4s;
+    text-transform: uppercase;
+
+
+}
+.menu-creat ul li:hover > a{
+    background: #2c3e50;
+    color: #f72b07;
+}
+
+.menu-creat ul li ul{
+    position: absolute;
+    top:150%;
+    left: 0;
+    width: 200px;
+    background: #34495e;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    z-index: 999;
+
+}
+.menu-creat ul li ul li{
+  display: block;
+  
+}
+
+.menu-creat ul li ul li a{
+    display: block;
+    padding: 10px 0;
+   
+}
+.menu-creat ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}
+
+
+/* banner 2 */
+.banner2{
+    background: url(../imgs/background-04.jpg) no-repeat center;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+
+
